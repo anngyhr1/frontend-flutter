@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="14" viewBox="0 0 20 14">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="20" height="14" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Menu_Icon" data-name="Menu Icon" clip-path="url(#clip-path)">
+    <g id="Menu_Icon-2" data-name="Menu Icon" transform="translate(1 1)">
+      <path id="Shape" d="M0,0H18" transform="translate(0 6)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Shape-2" data-name="Shape" d="M0,0H18" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Shape-3" data-name="Shape" d="M0,0H18" transform="translate(0 12)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

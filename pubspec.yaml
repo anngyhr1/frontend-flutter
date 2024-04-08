@@ -1,0 +1,150 @@
+name: ebooks
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.5
+  #flutter_svg: ^0.14.3
+  flutter_svg: ^0.22.0
+  # smooth_star_rating: 1.1.1
+ # shared_preferences: ^0.5.3+4
+  shared_preferences: ^2.0.7
+  # dynamic_theme: #^1.0.0
+  #  git: https://github.com/Norbert515/dynamic_theme
+  rxdart: ^0.27.2
+  http: ^0.13.3
+  json_annotation: ^4.0.1
+  auto_size_text: ^3.0.0-nullsafety.0
+  assorted_layout_widgets: ^5.1.1
+  flutter_linkify: ^5.0.2
+  material_floating_search_bar: ^0.3.4
+  provider: ^6.0.0
+  implicitly_animated_reorderable_list: ^0.4.1
+  adaptive_theme: ^2.2.0
+  zefyrka: ^1.0.10
+  path_provider: ^2.0.4
+  file: ^6.1.2
+  textfield_tags: ^1.4.2
+  awesome_select: ^5.1.0
+  flutter_bloc: ^8.0.0
+  stylish_bottom_bar: ^0.0.6
+  like_button: ^2.0.5
+  share_plus: ^4.5.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.1.2
+  json_serializable: ^4.1.4
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/svgs/onboarding-01.svg
+     - assets/svgs/onboarding-02.svg
+     - assets/svgs/onboarding-03.svg
+     - assets/svgs/home.svg
+     - assets/svgs/homeen.svg
+     - assets/svgs/mylibary.svg
+     - assets/svgs/mylibaryen.svg
+     - assets/svgs/profile.svg
+     - assets/svgs/profileen.svg
+     - assets/svgs/categories.svg
+     - assets/svgs/categoriesen.svg
+     - assets/svgs/search.svg
+     - assets/svgs/back.svg
+     - assets/svgs/stop.svg
+     - assets/svgs/play.svg
+     - assets/svgs/setting.svg
+     - assets/svgs/share.svg
+     - assets/svgs/comment.svg
+
+     - assets/image1.jpg
+     - assets/image2.jpg
+     - assets/image3.jpg
+     - assets/image4.jpg
+     - assets/image5.jpg
+     - assets/image6.jpg
+     - assets/user1.jpg
+
+
+
+
+
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins-Black.ttf
+          weight: 900
+    - family:  MyFlutterApp
+      fonts:
+        - asset: assets/svgs/MyFlutterApp.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

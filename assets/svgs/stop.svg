@@ -1,0 +1,4 @@
+<svg id="Stop_Lines" data-name="Stop Lines" xmlns="http://www.w3.org/2000/svg" width="12" height="20" viewBox="0 0 12 20">
+  <rect id="Line" width="4" height="20" rx="2" fill="#fff"/>
+  <rect id="Line-2" data-name="Line" width="4" height="20" rx="2" transform="translate(8)" fill="#fff"/>
+</svg>
